@@ -38,7 +38,7 @@ const Aboutdata: aboutdata[] = [
     imgSrc: '/images/aboutus/imgThree.svg',
     paragraph:
       'Berpengalaman menangani berbagai acara pernikahan dan event di Jakarta, Bogor, Depok, Tangerang, dan Bekasi dengan hasil dekorasi yang profesional dan berkesan.',
-    
+    link: '',
   },
 ]
 
@@ -200,30 +200,29 @@ const TestimonialsData: testimonials[] = [
 // artical data
 const ArticlesData: articles[] = [
   {
-    
+    time: 'Info',
     heading: 'Core Values',
-    
-    name: 'Kami akan selalu memberikan pelayanan terbaik dengan segenap hati untuk menciptakan nuansa pesta yang meriah dengan harga yang terjangkau',
-    
+    heading2: 'Pelayanan Terbaik',
+    date: '2026',
+    name: 'Kami akan selalu memberikan pelayanan terbaik dengan segenap hati untuk menciptakan nuansa pesta yang meriah dengan harga yang terjangkau.',
     imgSrc: '/images/articles/article.png',
   },
   {
-    
+    time: 'Info',
     heading: 'Partners',
-   
-    name: 'Studio 88 - Poltangan Pasar minggu sebagai partner foto/videographer Seza MUA - Bogor sebagai partner Make Up Artist dan Gaun',
-    
+    heading2: 'Partner Profesional',
+    date: '2026',
+    name: 'Studio 88 - Poltangan Pasar Minggu sebagai partner foto dan videographer. Seza MUA Bogor sebagai partner make up artist dan gaun.',
     imgSrc: '/images/articles/article2.png',
   },
   {
-    
+    time: 'Info',
     heading: 'Distribution Channel',
-    
-    name: 'Segala kegiatan yang pernah kami tangani akan kami upload di media sosial yaitu Facebook | Instagram | Tiktok | Youtube',
-   
+    heading2: 'Media Sosial',
+    date: '2026',
+    name: 'Segala kegiatan yang pernah kami tangani akan kami upload di Facebook, Instagram, TikTok, dan YouTube.',
     imgSrc: '/images/articles/article3.png',
   },
-  
 ]
 
 // footer links data
