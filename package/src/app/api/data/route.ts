@@ -11,10 +11,10 @@ import { footerlinks } from '@/app/types/footerlinks'
 // header nav-links data
 const headerData: HeaderItem[] = [
   { label: 'About Us', href: '#About' },
-  { label: 'Layanan', href: '#Team' },
-  { label: 'Portfolio', href: '#FAQ' },
+  { label: 'Team', href: '#Team' },
+  { label: 'Pertanyaan', href: '#FAQ' },
   { label: 'Partner', href: '#Blog' },
-  { label: 'Kontak', href: '/documentation' },
+  
 ]
 
 // about data
@@ -24,123 +24,123 @@ const Aboutdata: aboutdata[] = [
     imgSrc: '/images/aboutus/imgOne.svg',
     paragraph:
       'Decoration & Wedding Project adalah sebuah bidang jasa penyewaan alat pesta pernikahan dan kegiatan lain seperti acara keagamaan | Pesta Ulang Tahun | Pentas Seni | Acara Kebangsaan | dan lain sebagainya.',
-    link: 'Learn more',
+    link: '',
   },
   {
     heading: 'Services.',
     imgSrc: '/images/aboutus/imgTwo.svg',
     paragraph:
       'Menyediakan berbagai kebutuhan acara mulai dari dekorasi pernikahan, tenda, sound system, lighting, panggung, hingga perlengkapan pendukung lainnya.',
-    link: 'Learn more',
+    link: '',
   },
   {
     heading: 'Our Works.',
     imgSrc: '/images/aboutus/imgThree.svg',
     paragraph:
       'Berpengalaman menangani berbagai acara pernikahan dan event di Jakarta, Bogor, Depok, Tangerang, dan Bekasi dengan hasil dekorasi yang profesional dan berkesan.',
-    link: 'Learn more',
+    
   },
 ]
 
 // work-data
 const WorkData: workdata[] = [
   {
-    profession: 'Co-founder',
-    name: 'John Doe',
-    imgSrc: '/images/wework/avatar.svg',
+    profession: 'HR Manager',
+    name: 'AhmadTantowi',
+    imgSrc: '/images/wework/team1.png',
   },
   {
-    profession: 'Co-founder',
-    name: 'John Doe',
-    imgSrc: '/images/wework/avatar3.svg',
+    profession: 'Marketing',
+    name: 'Alwan',
+    imgSrc: '/images/wework/team2.png',
   },
   {
-    profession: 'Co-founder',
-    name: 'John Doe',
-    imgSrc: '/images/wework/avatar4.svg',
+    profession: 'Marketing',
+    name: 'Dewi',
+    imgSrc: '/images/wework/team3.png',
   },
   {
-    profession: 'Co-founder',
-    name: 'John Doe',
-    imgSrc: '/images/wework/avatar.svg',
+    profession: 'Admin',
+    name: 'Widiya Ratih',
+    imgSrc: '/images/wework/team4.png',
   },
   {
-    profession: 'Co-founder',
-    name: 'John Doe',
-    imgSrc: '/images/wework/avatar3.svg',
+    profession: 'Consulting',
+    name: 'Saidi',
+    imgSrc: '/images/wework/team5.png',
   },
   {
-    profession: 'Co-founder',
-    name: 'John Doe',
-    imgSrc: '/images/wework/avatar4.svg',
+    profession: 'Creative',
+    name: 'Guntur',
+    imgSrc: '/images/wework/team6.png',
   },
 ]
 
 // featured data
 const FeaturedData: featureddata[] = [
   {
-    heading: 'Brand design for a computer brand.',
+    heading: 'Gedung Serbaguna HKBP Sudirman Jakarta Selatan',
     imgSrc: '/images/featured/feat1.jpg',
   },
   {
-    heading: 'Mobile app 3d wallpaper.',
+    heading: 'Area Halaman Ciputat Tangerang Selatan',
     imgSrc: '/images/featured/feat2.jpg',
   },
   {
-    heading: 'Brand design for a computer brand.',
-    imgSrc: '/images/featured/feat1.jpg',
+    heading: 'Gedung Serbaguna HKBP Sudirman Jakarta Selatan',
+    imgSrc: '/images/featured/feat5.jpg',
   },
   {
-    heading: 'Mobile app 3d wallpaper.',
-    imgSrc: '/images/featured/feat2.jpg',
+    heading: 'Area Halaman Ciputat Tangerang Selatan',
+    imgSrc: '/images/featured/feat4.jpg',
   },
 ]
 
 // plans data
 const PlansData = [
   {
-    heading: 'Startup',
+    heading: 'Paket Hemat Tenda Only',
     price: {
       monthly: 19,
       yearly: 190,
     },
-    user: 'per user',
+    user: 'per paket',
     features: {
-      profiles: '5 Social Profiles',
-      posts: '5 Scheduled Posts Per Profile',
-      templates: '400+ Templated',
-      view: 'Calendar View',
-      support: '24/7 Support',
+      profiles: '',
+      posts: '',
+      templates: '',
+      view: '',
+      support: '',
     },
   },
   {
-    heading: 'Business',
+    heading: 'Paket Hemat',
     price: {
       monthly: 29,
       yearly: 290,
     },
-    user: 'per user',
+    user: 'per paket',
     features: {
-      profiles: '10 Social Profiles',
-      posts: '5 Scheduled Posts Per Profile',
-      templates: '600+ Templated',
-      view: 'Calendar View',
-      support: '24/7 VIP Support',
+      profiles: '',
+      posts: '',
+      templates: '',
+      view: '',
+      support: '',
     },
   },
   {
-    heading: 'Agency',
+    heading: 'Paket Hemat',
     price: {
       monthly: 59,
       yearly: 590,
     },
-    user: 'per user',
+    user: 'per paket',
     features: {
-      profiles: '100 Social Profiles',
-      posts: '100 Scheduled Posts Per Profile',
-      templates: '800+ Templated',
-      view: 'Calendar View',
-      support: '24/7 VIP Support',
+      profiles: '',
+      posts: '',
+      templates: '',
+      view: '',
+      support: '',
     },
   },
 ]
@@ -148,32 +148,32 @@ const PlansData = [
 // testimonial data
 const TestimonialsData: testimonials[] = [
   {
-    name: 'Robert Fox',
+    name: 'Bapak Andi - Jakarta Selatan',
     profession: 'CEO, Parkview Int.Ltd',
     comment:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      'Dekorasi pernikahan sangat memuaskan, hasilnya sesuai harapan dan tim bekerja dengan profesional. Terima kasih Decoration & Wedding Project.',
     imgSrc: '/images/testimonial/user1.svg',
     rating: 5,
   },
   {
-    name: 'Leslie Alexander',
-    profession: 'CEO, Parkview Int.Ltd',
+    name: 'Ibu Sari - Bogor',
+    profession: '',
     comment:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      'Pelayanan ramah, harga terjangkau, dan dekorasi sangat indah. Acara berjalan lancar dan keluarga sangat puas.',
     imgSrc: '/images/testimonial/user2.svg',
     rating: 4,
   },
   {
-    name: 'Cody Fisher',
-    profession: 'CEO, Parkview Int.Ltd',
+    name: 'Bapak Rizki - Tangerang',
+    profession: '',
     comment:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      'Tim sangat responsif dan membantu dari awal hingga acara selesai. Hasil dekorasi melebihi ekspektasi kami.',
     imgSrc: '/images/testimonial/user3.svg',
     rating: 4,
   },
   {
     name: 'Robert Fox',
-    profession: 'CEO, Parkview Int.Ltd',
+    profession: '',
     comment:
       'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
     imgSrc: '/images/testimonial/user1.svg',
@@ -200,53 +200,30 @@ const TestimonialsData: testimonials[] = [
 // artical data
 const ArticlesData: articles[] = [
   {
-    time: '5 min',
-    heading: 'We Launch Delia',
-    heading2: 'Webflow this Week!',
-    name: 'Published on Startupon',
-    date: 'february 19, 2025',
+    
+    heading: 'Core Values',
+    
+    name: 'Kami akan selalu memberikan pelayanan terbaik dengan segenap hati untuk menciptakan nuansa pesta yang meriah dengan harga yang terjangkau',
+    
     imgSrc: '/images/articles/article.png',
   },
   {
-    time: '5 min',
-    heading: 'We Launch Delia',
-    heading2: 'Webflow this Week!',
-    name: 'Published on Startupon',
-    date: 'february 19, 2025',
+    
+    heading: 'Partners',
+   
+    name: 'Studio 88 - Poltangan Pasar minggu sebagai partner foto/videographer Seza MUA - Bogor sebagai partner Make Up Artist dan Gaun',
+    
     imgSrc: '/images/articles/article2.png',
   },
   {
-    time: '5 min',
-    heading: 'We Launch Delia',
-    heading2: 'Webflow this Week!',
-    name: 'Published on Startupon',
-    date: 'february 19, 2025',
+    
+    heading: 'Distribution Channel',
+    
+    name: 'Segala kegiatan yang pernah kami tangani akan kami upload di media sosial yaitu Facebook | Instagram | Tiktok | Youtube',
+   
     imgSrc: '/images/articles/article3.png',
   },
-  {
-    time: '5 min',
-    heading: 'We Launch Delia',
-    heading2: 'Webflow this Week!',
-    name: 'Published on Startupon',
-    date: 'february 19, 2025',
-    imgSrc: '/images/articles/article.png',
-  },
-  {
-    time: '5 min',
-    heading: 'We Launch Delia',
-    heading2: 'Webflow this Week!',
-    name: 'Published on Startupon',
-    date: 'february 19, 2025',
-    imgSrc: '/images/articles/article2.png',
-  },
-  {
-    time: '5 min',
-    heading: 'We Launch Delia',
-    heading2: 'Webflow this Week!',
-    name: 'Published on Startupon',
-    date: 'february 19, 2025',
-    imgSrc: '/images/articles/article3.png',
-  },
+  
 ]
 
 // footer links data
@@ -254,34 +231,34 @@ const FooterLinksData: footerlinks[] = [
   {
     section: 'Menu',
     links: [
-      { label: 'About Us', href: '#About' },
+      { label: 'Tentang Kami', href: '#About' },
       { label: 'Team', href: '#Team' },
-      { label: 'FAQ', href: '#FAQ' },
-      { label: 'Blog', href: '#Blog' },
+      { label: 'Pertanyaan', href: '#FAQ' },
+      { label: 'Partner', href: '#Blog' },
     ],
   },
   {
     section: 'Category',
     links: [
-      { label: 'Design', href: '/' },
-      { label: 'Mockup', href: '/' },
-      { label: 'View all', href: '/' },
-      { label: 'Log In', href: '/' },
+      { label: 'Dekorasi Pernikahan', href: '/' },
+      { label: 'Tenda Acara', href: '/' },
+      { label: 'Sound System', href: '/' },
+      { label: 'Lighting', href: '/' },
     ],
   },
   {
     section: 'Pages',
     links: [
-      { label: '404', href: '/' },
-      { label: 'Instructions', href: '/' },
-      { label: 'License', href: '/' },
+      { label: 'Galeri Proyek', href: '/' },
+      { label: 'Partner Kami', href: '/' },
+      { label: 'Area Layanan', href: '/' },
     ],
   },
   {
     section: 'Others',
     links: [
-      { label: 'Styleguide', href: '/' },
-      { label: 'Changelog', href: '/' },
+      { label: 'WhatsApp', href: '/' },
+      { label: 'Instagram', href: '/' },
     ],
   },
 ]

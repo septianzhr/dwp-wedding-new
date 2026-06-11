@@ -16,7 +16,7 @@ const FAQ = () => {
         <div className='relative rounded-2xl py-24 bg-faq-bg bg-no-repeat bg-cover bg-primary'>
           <p className='text-lg font-normal text-white text-center mb-6'>FAQ</p>
           <h2 className='text-white text-center max-w-3xl mx-auto'>
-            Frequently asked questions.
+            Pertanyaan yang Sering Diajukan
           </h2>
           <div className='w-full px-4 pt-16'>
             <div className='mx-auto w-full max-w-5xl rounded-2xl p-8 bg-white mb-5'>
@@ -25,7 +25,7 @@ const FAQ = () => {
                   <div>
                     <DisclosureButton className='flex w-full justify-between items-center text-left text-2xl font-medium focus:outline-hidden hover:cursor-pointer'>
                       <span className='text-black'>
-                        Can you design my site?
+                       Apakah Decoration & Wedding Project melayani luar kota?
                       </span>
                       <div
                         className={`h-5 w-5 transform transition-transform duration-300 ${
@@ -36,10 +36,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 font-normal text-left pt-4 mt-6 border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Craven omni memoria patriae zombieland clairvius
-                        narcisse religionis sunt diri undead historiarum.
-                        Golums, zombies unrelenting et Raimi fascinati
-                        beheading.
+                        Kami melayani wilayah Jabodetabek dan area sekitarnya. Untuk lokasi di luar wilayah tersebut, silakan hubungi kami untuk konsultasi lebih lanjut.
                       </div>
                     </DisclosurePanel>
                   </div>
@@ -51,7 +48,7 @@ const FAQ = () => {
                 {({ open }) => (
                   <>
                     <DisclosureButton className='flex w-full justify-between items-center rounded-lg text-left text-2xl font-medium focus:outline-hidden hover:cursor-pointer'>
-                      <span className='text-black'>Can you code my site?</span>
+                      <span className='text-black'>Apakah bisa request konsep dekorasi sesuai keinginan?</span>
                       <div
                         className={`h-5 w-5 transform transition-transform duration-300 ${
                           open ? 'rotate-180' : ''
@@ -61,10 +58,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 pt-4 mt-6 text-left border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Craven omni memoria patriae zombieland clairvius
-                        narcisse religionis sunt diri undead historiarum.
-                        Golums, zombies unrelenting et Raimi fascinati
-                        beheading.
+                        Tentu. Kami menerima konsep dekorasi custom sesuai tema dan kebutuhan acara Anda, mulai dari dekorasi sederhana hingga premium.
                       </div>
                     </DisclosurePanel>
                   </>
@@ -77,7 +71,7 @@ const FAQ = () => {
                 {({ open }) => (
                   <>
                     <DisclosureButton className='flex w-full justify-between items-center rounded-lg text-left text-2xl font-medium focus:outline-hidden hover:cursor-pointer'>
-                      <span className='text-black'>Where are you located?</span>
+                      <span className='text-black'>Dimana Alamatnya?</span>
                       <div
                         className={`h-5 w-5 transform transition-transform duration-300 ${
                           open ? 'rotate-180' : ''
@@ -87,10 +81,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 pt-4 mt-6 font-normal text-left border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Craven omni memoria patriae zombieland clairvius
-                        narcisse religionis sunt diri undead historiarum.
-                        Golums, zombies unrelenting et Raimi fascinati
-                        beheading.
+                        Alamat kami berada di Jl. Bumi Pesanggrahan Indah Blok B2/10 Cilebut Bogor Jawa Barat
                       </div>
                     </DisclosurePanel>
                   </>

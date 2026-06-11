@@ -96,18 +96,7 @@ const Manage = () => {
           />
           <div className='flex items-center justify-center'>
             <p className='text-sm font-medium mr-5'>Pelayanan Profesional</p>
-            <Switch
-              checked={enabled}
-              onChange={toggleEnabled}
-              className='relative inline-flex h-6 w-11 items-center rounded-full bg-black'>
-              <span className='sr-only'>Kepuasan Klien Prioritas Kami</span>
-              <span
-                className={`inline-block h-4 w-4 transform rounded-full bg-white transition ${
-                  enabled ? 'translate-x-6' : 'translate-x-1'
-                }`}
-              />
-            </Switch>
-            <p className='text-sm font-medium ml-5'>Billed Monthly</p>
+            
           </div>
         </div>
 
@@ -119,7 +108,7 @@ const Manage = () => {
                   className='shadow-manage-shadow border border-border text-center p-10 rounded-3xl'
                   key={i}>
                   <h5 className='mb-3'>{items.heading}</h5>
-                  <p className='text-6xl font-extrabold mb-3'>${items.price}</p>
+                  <p className='text-6xl font-extrabold mb-3'>Rp{items.price}</p>
                   <p className='text-sm font-medium mb-6'>{items.user}</p>
                   <Link href={'#'}>
                     <button className='text-sm font-bold text-primary bg-transparent hover:bg-primary hover:text-white border-2 border-primary rounded-full py-4 px-12 mb-6 hover:cursor-pointer'>

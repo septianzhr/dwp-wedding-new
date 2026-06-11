@@ -77,7 +77,7 @@ const Work = () => {
       <div className='container mx-auto max-w-7xl px-4'>
         <div className='text-center overflow-hidden'>
           <h3 className='text-black my-5'>
-            We work in several verticals.
+            MANAGEMENT TEAM
           </h3>
         </div>
       </div>

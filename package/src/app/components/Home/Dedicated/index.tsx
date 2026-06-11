@@ -17,7 +17,7 @@ const Dedicated = () => {
           {/* Left Column */}
           <div className='col-span-12 lg:col-span-6 justify-self-center'>
             <Image
-              src='/images/dedicated/man.svg'
+              src='/images/dedicated/man.jpg'
               alt='man-icon'
               width={416}
               height={530}
@@ -43,7 +43,7 @@ const Dedicated = () => {
               Dari akad sederhana hingga resepsi megah, kami berkomitmen memberikan pelayanan terbaik dengan dekorasi yang indah, modern, dan harga yang terjangkau.
             </p>
             <h5 className='mt-12 lg:pl-32 relative lg:before:block before:hidden before:absolute before:bg-black before:h-0.5 before:w-24 before:left-0 before:bottom-1/2 text-center lg:text-start'>
-              Cathy Hills, CEO
+              Widiya Ratih
             </h5>
           </div>
         </div>

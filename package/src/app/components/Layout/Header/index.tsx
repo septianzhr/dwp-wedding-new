@@ -105,13 +105,7 @@ const Header: React.FC = () => {
             className={`flex items-center gap-4 pl-16 lg:border-l border-black/10 duration-300 ${
               sticky ? 'py-3' : 'py-7'
             }`}>
-            <button
-              className='hidden lg:block bg-transparent text-darkmode border hover:bg-darkmode border-darkmode hover:text-white px-4 py-2 rounded-lg hover:cursor-pointer'
-              onClick={() => {
-                setIsSignInOpen(true)
-              }}>
-              Sign In
-            </button>
+        
             {isSignInOpen && (
               <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
                 <div
@@ -130,13 +124,7 @@ const Header: React.FC = () => {
                 </div>
               </div>
             )}
-            <button
-              className='hidden lg:block bg-darkmode text-white hover:bg-transparent hover:text-darkmode border border-darkmode px-4 py-2 rounded-lg hover:cursor-pointer'
-              onClick={() => {
-                setIsSignUpOpen(true)
-              }}>
-              Sign Up
-            </button>
+            
             {isSignUpOpen && (
               <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
                 <div

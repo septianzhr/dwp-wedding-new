@@ -31,7 +31,7 @@ const footer = () => {
           {/* COLUMN-1 */}
           <div className='col-span-4'>
             <h4 className='text-white text-3xl leading-9 mb-4 lg:mb-20'>
-              Desgy Solutions
+              Decoration & Wedding Project
             </h4>
             <div className='flex items-center gap-4'>
               <div className='footer-icons'>
@@ -93,13 +93,13 @@ const footer = () => {
           <div className='mt-4 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 xl:gap-x-8'>
             <div>
               <p className='text-center md:text-start text-white text-lg'>
-                @2025 - All Rights Reserved by{' '}
+                © 2026 Decoration & Wedding Project. All Rights Reserved.{' '}
                 <Link
                   href='https://getnextjstemplates.com/'
                   target='_blank'
                   className='hover:text-white/60 hover:underline'>
                   {' '}
-                  GetNextJsTemplates.com
+                  
                 </Link>
               </p>
             </div>

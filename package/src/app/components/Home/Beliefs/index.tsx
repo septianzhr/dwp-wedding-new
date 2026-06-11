@@ -47,7 +47,7 @@ const Beliefs = () => {
                 <Link
                   href='#'
                   className='text-xl py-5 px-14 mt-5 font-semibold text-white rounded-full bg-primary border border-primary hover:bg-darkmode hover:border-darkmode'>
-                  Learn more
+                  Booking Sekarang
                 </Link>
               </div>
             </div>

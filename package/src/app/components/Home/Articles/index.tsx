@@ -63,9 +63,9 @@ const Articles = () => {
       <div className='container mx-auto max-w-7xl px-4 relative'>
         <div className='text-center'>
           <p className='text-primary text-xl font-normal tracking-widest'>
-            ARTICLES
+            
           </p>
-          <h2>Our latest post.</h2>
+          <h2>BUSINESS OVERVIEW</h2>
         </div>
 
         <Slider {...settings}>

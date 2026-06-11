@@ -27,9 +27,9 @@ const Digital = () => {
             </div>
           </div>
           {/* COLUMN-2 */}
-          <div className='absolute -bottom-16 -right-20 xl:block hidden'>
+          <div className='absolute -bottom-0 -right-20 xl:block hidden'>
             <Image
-              src='/images/digital/girldoodle.svg'
+              src='/images/digital/girldoodle.png'
               alt='doodle'
               width={815}
               height={691}
