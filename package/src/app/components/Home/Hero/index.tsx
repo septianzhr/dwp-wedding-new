@@ -27,7 +27,7 @@ const Hero = () => {
             <div className='py-2 px-5 bg-primary/15 rounded-full w-fit'>
               <p className='text-primary text-lg font-bold'></p>
             </div>
-            <h1>
+            <h1 className="text-4xl lg:text-5xl font-bold">
               Dekorasi Pernikahan Profesional untuk Momen Tak Terlupakan
             </h1>
             <Link href={'#'}>

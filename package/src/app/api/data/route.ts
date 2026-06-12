@@ -10,10 +10,12 @@ import { footerlinks } from '@/app/types/footerlinks'
 
 // header nav-links data
 const headerData: HeaderItem[] = [
-  { label: 'About Us', href: '#About' },
-  { label: 'Team', href: '#Team' },
-  { label: 'Pertanyaan', href: '#FAQ' },
-  { label: 'Partner', href: '#Blog' },
+  { label: 'About Us', href: '/#About' },
+  { label: 'Team', href: '/#Team' },
+  { label: 'Pertanyaan', href: '/#FAQ' },
+  { label: 'Partner', href: '/#Blog' },
+  { label: 'Alamat Kami', href: '/#FAQ' },
+  { label: 'Galeri', href: '/gallery' },
   
 ]
 
@@ -149,7 +151,7 @@ const PlansData = [
 const TestimonialsData: testimonials[] = [
   {
     name: 'Bapak Andi - Jakarta Selatan',
-    profession: 'CEO, Parkview Int.Ltd',
+    profession: '',
     comment:
       'Dekorasi pernikahan sangat memuaskan, hasilnya sesuai harapan dan tim bekerja dengan profesional. Terima kasih Decoration & Wedding Project.',
     imgSrc: '/images/testimonial/user1.svg',
@@ -172,26 +174,26 @@ const TestimonialsData: testimonials[] = [
     rating: 4,
   },
   {
-    name: 'Robert Fox',
+    name: 'Bapak Andi Pratama',
     profession: '',
     comment:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      'Dekorasi yang dibuat sangat indah dan sesuai dengan konsep yang kami inginkan. Tim bekerja profesional, tepat waktu, dan sangat membantu selama acara berlangsung.',
     imgSrc: '/images/testimonial/user1.svg',
     rating: 4,
   },
   {
-    name: 'Leslie Alexander',
-    profession: 'CEO, Parkview Int.Ltd',
+    name: 'Ibu Sari Rahmawati',
+    profession: '',
     comment:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      'Kami sangat puas dengan pelayanan Decoration & Wedding Project. Hasil dekorasi melebihi ekspektasi dan membuat momen pernikahan kami semakin berkesan.',
     imgSrc: '/images/testimonial/user2.svg',
     rating: 4,
   },
   {
-    name: 'Cody Fisher',
-    profession: 'CEO, Parkview Int.Ltd',
+    name: 'Bapak Rizki & Keluarga',
+    profession: '',
     comment:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      'Mulai dari konsultasi hingga hari acara, semuanya berjalan lancar. Harga terjangkau dengan kualitas dekorasi yang sangat baik. Sangat direkomendasikan.',
     imgSrc: '/images/testimonial/user3.svg',
     rating: 4,
   },

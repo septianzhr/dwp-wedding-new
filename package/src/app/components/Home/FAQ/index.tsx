@@ -81,7 +81,7 @@ const FAQ = () => {
                     </DisclosureButton>
                     <DisclosurePanel className='text-base text-black/50 pt-4 mt-6 font-normal text-left border-t border-border'>
                       <div className='lg:max-w-70%'>
-                        Alamat kami berada di Jl. Bumi Pesanggrahan Indah Blok B2/10 Cilebut Bogor Jawa Barat
+                        Alamat kami berada di Jalan Bumi Pesanggrahan Indah Blok B2 No 1 Sukaraja Cilebut Barat Bogor Jawa Barat
                       </div>
                     </DisclosurePanel>
                   </>
